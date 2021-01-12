@@ -1,0 +1,84 @@
+body{
+	background-image: url('blue.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	font-family: 'Fredoka One', cursive;
+	font-size: 30px;
+	color: white;
+}
+
+.abc{
+	text-align: center;
+	margin-top: 40px;
+}
+
+a{	
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	padding: 15px 15px 15px 15px;
+	border-radius: 30px;
+
+}
+
+a:hover{
+	background-color: white;
+	color: black;
+}
+
+ul{
+	list-style-type: upper-alpha;
+	list-style-position: inside;
+	color: yellow;
+	/*list-style: circle inlide url('../images/backgroundpic.jpg');     
+	 [for use image as bullet]*/
+}
+
+caption{
+	background-color: black;
+	font-size: 40px;
+}
+
+.we{
+	 font-size: 25px;
+	 border-collapse: collapse;   /* to fill up border gap in page*/
+	 border-radius: 30px;
+	 overflow: hidden;
+	 box-shadow: 0 0 40px rgb( 249, 251, 251, 1) ; 
+	 /*to make shadow of table. here "1" is to identify color density*/
+	}
+
+.we thead{
+	background-color: #BAF3C6 ; 
+	color: #09641C ;
+}
+
+.we tbody{
+	background-color: #EDE8BE ;
+	color: #574F0C ; 
+}
+
+.we th, td {
+	padding: 20px 10px;
+}
+
+.we tbody tr:hover{
+	background-color:#810E75 ; 
+	color:#EFA2E7 ;
+}
+
+.we .row2{
+	background-color: #2CC5D0 ; 
+	/*.row2{background-color: #810E75 !important;} 
+	[do the same thing of definite a row's color]*/
+	color:#086C74 ;
+}
+
+.we tbody tr{
+	border-bottom: 2px solid #636011;/* to make line in between row*/
+}
+
+.we tbody td{
+	border-left: 2px dashed #636011;/* to make line in between row*/
+}
